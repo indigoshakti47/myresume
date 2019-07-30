@@ -9,7 +9,7 @@ function App() {
   return (
 
     <div style={{height: '500px', position: 'relative'}}>
-    <Layout fixedHeader style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
+    <Layout fixedHeader style={{background: 'url(https://frozenlemonmedia.com/wp-content/uploads/2015/01/abstract-polygon-background-7-e1408078932213.jpg) center / cover'}}>
     <Header title={<span><span style={{ color: '#ff3855' }}> <b>Nathalia Avila</b> </span></span>}>
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
