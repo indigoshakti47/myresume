@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Card, CardTitle, CardText, CardActions, Button, CardMenu, Tab, Grid, Tabs, Cell, IconButton} from 'react-mdl'
+import {Card, CardTitle, CardText, CardActions, Button, CardMenu, Tab, Grid, Tabs, Cell, IconButton, Icon, List, ListItem, ListItemAction, ListItemContent} from 'react-mdl'
 
 class Skills extends Component{
     constructor(props) {
@@ -14,64 +14,131 @@ class Skills extends Component{
             <div className="projects-grid">
               {/* Project 1 */}
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >FICI</CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://getwallpapers.com/wallpaper/full/e/8/8/904319-top-cool-awesome-backgrounds-1920x1200-laptop.jpg) center / cover'}} >FICI</CardTitle>
                 <CardText>
-                  
+                Web developer of: https://fici.com.co/ ,an entrepreneurship that focuses on providing in home physiotherapy sessions to high performance athletes.
                 </CardText>
                 <CardActions border>
                   <Button colored>GitHub</Button>
                   <Button colored>Website</Button>
                   
                 </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                  <IconButton name="share" />
-                </CardMenu>
+                
               </Card>
+
+              <br></br>
+
+
               {/* Project 2 */}
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://getwallpapers.com/wallpaper/full/e/8/8/904319-top-cool-awesome-backgrounds-1920x1200-laptop.jpg) center / cover'}} >My Pineal</CardTitle>
                 <CardText>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    Co-developer of a new social media platform that focuses on building a global community for like minded people around the world
                 </CardText>
                 <CardActions border>
                   <Button colored>GitHub</Button>
-                  <Button colored>CodePen</Button>
-                  <Button colored>Live Demo</Button>
+                  <Button colored>Website</Button>
                 </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                  <IconButton name="share" />
-                </CardMenu>
+                
               </Card>
+
+              <br></br>
               {/* Project 3 */}
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://getwallpapers.com/wallpaper/full/e/8/8/904319-top-cool-awesome-backgrounds-1920x1200-laptop.jpg) center / cover'}} >Pequeños cientificos</CardTitle>
                 <CardText>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                  School information system that manages everything related to finances, students, class schedules, transport and more. 
                 </CardText>
                 <CardActions border>
                   <Button colored>GitHub</Button>
-                  <Button colored>CodePen</Button>
-                  <Button colored>Live Demo</Button>
+                  <Button colored>Website</Button>
                 </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                  <IconButton name="share" />
-                </CardMenu>
+               
               </Card>
             </div>
           )
         } else if(this.state.activeTab === 1) {
           return (
-            <div><h1>This is Angular</h1></div>
+            <div>
+                <List style={{width: '500px'}}>
+    <ListItem>
+    <ListItemContent avatar="logo">Cloud Computing</ListItemContent>
+    <ListItemAction>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      
+    </ListItemAction>
+  </ListItem>
+
+  <ListItem>
+    <ListItemContent avatar="logo">IT Infrastructure</ListItemContent>
+    <ListItemAction>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+    </ListItemAction>
+  </ListItem>
+
+  <ListItem>
+    <ListItemContent avatar="logo">Routing and networking</ListItemContent>
+    <ListItemAction>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+    </ListItemAction>
+  </ListItem>
+
+
+  <ListItem>
+    <ListItemContent avatar="logo">Python</ListItemContent>
+    <ListItemAction>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      
+    </ListItemAction>
+  </ListItem>
+  <ListItem>
+    <ListItemContent avatar="logo">Javascript</ListItemContent>
+    <ListItemAction>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+    </ListItemAction>
+  </ListItem>
+  <ListItem>
+    <ListItemContent avatar="logo">Swift</ListItemContent>
+    <ListItemAction>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      
+    </ListItemAction>
+  </ListItem>
+  <ListItem>
+    <ListItemContent avatar="logo">Java</ListItemContent>
+    <ListItemAction>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      <a href="#"><Icon name="star" /></a>
+      
+    </ListItemAction>
+  </ListItem>
+</List>
+
+
+            </div>
           )
-        } else if(this.state.activeTab === 2) {
-          return (
-            <div><h1>This is VueJS</h1></div>
-          )
-        } else if(this.state.activeTab === 3) {
-          return (
-            <div><h1>This is MongoDB</h1></div>
-          )
-        }
+        } 
       }
 
     render(){
@@ -79,9 +146,9 @@ class Skills extends Component{
         return(
             <div>
          <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>Personal</Tab>
           <Tab>Projects</Tab>
           <Tab>Skills</Tab>
+          
         </Tabs>
           <Grid>
             <Cell col={12}>
