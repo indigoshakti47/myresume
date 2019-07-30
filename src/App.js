@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Layout, Header, Navigation, Drawer, Title, Content} from 'react-mdl';
 import Main from './components/main';
+import {Link} from 'react-router-dom';
 
 
 function App() {
@@ -11,18 +12,18 @@ function App() {
     <Layout fixedHeader style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
     <Header title={<span><span style={{ color: '#ff3855' }}> <b>Nathalia Avila</b> </span></span>}>
             <Navigation>
-                <a href="#">About Me</a>
-                <a href="/">Achievements</a>
-                <a href="#">Skills/Projects</a>
-                <a href="#">Social</a>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/achievements">Achievements</Link>
+                <Link to="/skills">Skills/Projects</Link>
+                <Link to="/social">Social N</Link>
             </Navigation>
         </Header>
         <Drawer title="Nathalia">
             <Navigation>
-                <a href="#">About Me</a>
-                <a href="#">Achievements</a>
-                <a href="#">Skills/Projects</a>
-                <a href="#">Social</a>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/achievements">Achievements</Link>
+                <Link to="/skills">Skills/Projects</Link>
+                <Link to="/social">Social N</Link>
             </Navigation>
         </Drawer>
         <Content>
