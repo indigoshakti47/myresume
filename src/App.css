@@ -9,7 +9,6 @@
     background: #c94b4b;   
     background: -webkit-linear-gradient(to top, #7f2b85, #ec4949);
     background: linear-gradient(to top, #64d6eb, #2dce0c);
-
 }
 
 .my-avatar{
@@ -40,7 +39,17 @@
     color: rgb(59, 59, 59);
     font-size: 13px;
     font-weight: bold;
-    align-content: center;
+    margin: auto;
+}
 
-
+.social-media-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.social-media-links i{
+    color: #060101;
+    font-size: 5em;
+    padding: 8px;
 }

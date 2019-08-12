@@ -15,7 +15,24 @@ class LandingPage extends Component{
                         <p>
                          Envisioning new worlds | Starting projects | Networking | Traveling 
                         </p>
+                        <div className="social-media-links">
 
+                            <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                                <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+
+                            <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                                <i className="fa fa-github-square" aria-hidden="true"></i>
+                            </a>
+
+                            <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                                <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                            </a>
+
+                            <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                                <i className="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </div>
                     </Cell>
 
