@@ -17,19 +17,19 @@ class LandingPage extends Component{
                         </p>
                         <div className="social-media-links">
 
-                            <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/nathalia-avila-7a7907127/" target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                             </a>
 
-                            <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/indigoshakti47" target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-github-square" aria-hidden="true"></i>
                             </a>
 
-                            <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.facebook.com/indigodreamer.1111" target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-facebook-square" aria-hidden="true"></i>
                             </a>
 
-                            <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://twitter.com/Indigodreamer11" target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-twitter-square" aria-hidden="true"></i>
                             </a>
                         </div>
