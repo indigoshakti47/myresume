@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Social extends Component{
     render(){
         return(
-            <p>w</p>
+            <p></p>
         )
     }
 }
