@@ -111,8 +111,7 @@ class Skills extends Component{
     <ListItemAction>
       <a href="#"><Icon name="star" /></a>
       <a href="#"><Icon name="star" /></a>
-      <a href="#"><Icon name="star" /></a>
-      <a href="#"><Icon name="star" /></a>
+
     </ListItemAction>
   </ListItem>
   <ListItem>

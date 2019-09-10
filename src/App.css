@@ -1,7 +1,9 @@
 .nav-colour {
   
-    background: -webkit-linear-gradient(to top, #575457, #ec4949);
-    background: linear-gradient(to top, #c2ecf3, #778375);
+    background: #f09819; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f09819, #edde5d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #edde5d, #f09819); 
+
 }
 
 .landing-grid{
